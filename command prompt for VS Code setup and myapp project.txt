@@ -1,0 +1,279 @@
+
+#Ref https://learn.microsoft.com/en-us/shows/dotnet/get-started-vscode-csharp-net-core-windows
+
+
+Microsoft Windows [Version 10.0.22000.1574]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\d.saha>cd documents\code
+The system cannot find the path specified.
+
+C:\Users\d.saha>dotnet new console
+
+Welcome to .NET 5.0!
+---------------------
+SDK Version: 5.0.416
+
+Telemetry
+---------
+The .NET tools collect usage data in order to help us improve your experience. It is collected by Microsoft and shared with the community. You can opt-out of telemetry by setting the DOTNET_CLI_TELEMETRY_OPTOUT environment variable to '1' or 'true' using your favorite shell.
+
+Read more about .NET CLI Tools telemetry: https://aka.ms/dotnet-cli-telemetry
+
+----------------
+Installed an ASP.NET Core HTTPS development certificate.
+To trust the certificate run 'dotnet dev-certs https --trust' (Windows and macOS only).
+Learn about HTTPS: https://aka.ms/dotnet-https
+----------------
+Write your first app: https://aka.ms/dotnet-hello-world
+Find out what's new: https://aka.ms/dotnet-whats-new
+Explore documentation: https://aka.ms/dotnet-docs
+Report issues and find source on GitHub: https://github.com/dotnet/core
+Use 'dotnet --help' to see available commands or visit: https://aka.ms/dotnet-cli
+--------------------------------------------------------------------------------------
+Getting ready...
+The template "Console Application" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on C:\Users\d.saha\d.saha.csproj...
+  Determining projects to restore...
+  Restored C:\Users\d.saha\d.saha.csproj (in 63 ms).
+Restore succeeded.
+
+
+C:\Users\d.saha>dir
+ Volume in drive C has no label.
+ Volume Serial Number is E478-4D1F
+
+ Directory of C:\Users\d.saha
+
+03/16/2023  03:10 PM    <DIR>          .
+09/21/2022  02:19 PM    <DIR>          ..
+03/06/2023  03:19 PM    <DIR>          .azure
+09/21/2022  03:44 PM    <DIR>          .cisco
+03/16/2023  03:09 PM    <DIR>          .dotnet
+12/05/2022  01:17 PM                60 .gitconfig
+10/13/2022  11:49 AM    <DIR>          .librarymanager
+09/29/2022  09:24 AM    <DIR>          .ms-ad
+10/13/2022  10:53 AM    <DIR>          .nuget
+03/16/2023  03:09 PM    <DIR>          .templateengine
+03/06/2023  01:34 PM    <DIR>          .vs
+09/21/2022  03:22 PM    <DIR>          .vscode
+09/21/2022  02:17 PM    <DIR>          Contacts
+03/16/2023  03:09 PM               171 d.saha.csproj
+03/11/2023  06:52 AM    <DIR>          Desktop
+12/11/2022  12:24 PM    <DIR>          Documents
+03/16/2023  02:43 PM    <DIR>          Downloads
+09/21/2022  02:17 PM    <DIR>          Favorites
+09/21/2022  02:17 PM    <DIR>          Links
+09/21/2022  02:17 PM    <DIR>          Music
+03/16/2023  03:10 PM    <DIR>          obj
+08/22/2022  12:17 PM    <DIR>          OneDrive
+03/16/2023  09:18 AM    <DIR>          OneDrive - Avanade
+10/21/2022  10:45 AM    <DIR>          Pictures
+10/07/2022  04:46 PM    <DIR>          Postman
+03/16/2023  03:09 PM               188 Program.cs
+09/21/2022  02:17 PM    <DIR>          Saved Games
+09/21/2022  03:43 PM    <DIR>          Searches
+10/13/2022  10:50 AM    <DIR>          source
+10/14/2022  10:52 AM    <DIR>          Videos
+               3 File(s)            419 bytes
+              27 Dir(s)  355,912,601,600 bytes free
+
+C:\Users\d.saha>dir documents
+ Volume in drive C has no label.
+ Volume Serial Number is E478-4D1F
+
+ Directory of C:\Users\d.saha\documents
+
+12/11/2022  12:24 PM    <DIR>          .
+03/16/2023  03:10 PM    <DIR>          ..
+09/23/2022  08:20 AM    <DIR>          Custom Office Templates
+11/09/2022  05:19 PM    <DIR>          Fiddler2
+10/13/2022  10:44 AM    <DIR>          IISExpress
+10/13/2022  10:44 AM    <DIR>          My Web Sites
+10/07/2022  09:58 AM    <DIR>          SQL Server Management Studio
+10/13/2022  02:55 PM    <DIR>          Visual Studio 2017
+10/13/2022  10:50 AM    <DIR>          Visual Studio 2019
+               0 File(s)              0 bytes
+               9 Dir(s)  355,915,636,736 bytes free
+
+C:\Users\d.saha>cd documents\code
+The system cannot find the path specified.
+
+C:\Users\d.saha>cd documents
+
+C:\Users\d.saha\Documents>dir
+ Volume in drive C has no label.
+ Volume Serial Number is E478-4D1F
+
+ Directory of C:\Users\d.saha\Documents
+
+12/11/2022  12:24 PM    <DIR>          .
+03/16/2023  03:10 PM    <DIR>          ..
+09/23/2022  08:20 AM    <DIR>          Custom Office Templates
+11/09/2022  05:19 PM    <DIR>          Fiddler2
+10/13/2022  10:44 AM    <DIR>          IISExpress
+10/13/2022  10:44 AM    <DIR>          My Web Sites
+10/07/2022  09:58 AM    <DIR>          SQL Server Management Studio
+10/13/2022  02:55 PM    <DIR>          Visual Studio 2017
+10/13/2022  10:50 AM    <DIR>          Visual Studio 2019
+               0 File(s)              0 bytes
+               9 Dir(s)  355,917,459,456 bytes free
+
+C:\Users\d.saha\Documents>dir Visual Studio 2019
+ Volume in drive C has no label.
+ Volume Serial Number is E478-4D1F
+
+ Directory of C:\Users\d.saha\Documents
+
+
+ Directory of C:\Users\d.saha\Documents
+
+
+ Directory of C:\Users\d.saha\Documents
+
+File Not Found
+
+C:\Users\d.saha\Documents>dir [Visual Studio 2019]
+ Volume in drive C has no label.
+ Volume Serial Number is E478-4D1F
+
+ Directory of C:\Users\d.saha\Documents
+
+
+ Directory of C:\Users\d.saha\Documents
+
+
+ Directory of C:\Users\d.saha\Documents
+
+File Not Found
+
+C:\Users\d.saha\Documents>dir "Visual Studio 2019"
+ Volume in drive C has no label.
+ Volume Serial Number is E478-4D1F
+
+ Directory of C:\Users\d.saha\Documents\Visual Studio 2019
+
+10/13/2022  10:50 AM    <DIR>          .
+12/11/2022  12:24 PM    <DIR>          ..
+10/13/2022  10:50 AM    <DIR>          Code Snippets
+10/13/2022  10:50 AM    <DIR>          Templates
+               0 File(s)              0 bytes
+               4 Dir(s)  355,921,051,648 bytes free
+
+C:\Users\d.saha\Documents>cd "Visual Studio 2019"
+
+C:\Users\d.saha\Documents\Visual Studio 2019>dir "Code Snippets"
+ Volume in drive C has no label.
+ Volume Serial Number is E478-4D1F
+
+ Directory of C:\Users\d.saha\Documents\Visual Studio 2019\Code Snippets
+
+10/13/2022  10:50 AM    <DIR>          .
+10/13/2022  10:50 AM    <DIR>          ..
+10/13/2022  10:50 AM    <DIR>          JavaScript
+10/13/2022  10:50 AM    <DIR>          SQL_SSDT
+10/13/2022  10:50 AM    <DIR>          TypeScript
+10/13/2022  10:50 AM    <DIR>          Visual Basic
+10/13/2022  10:50 AM    <DIR>          Visual C#
+10/13/2022  10:50 AM    <DIR>          Visual Web Developer
+10/13/2022  10:50 AM    <DIR>          XAML
+10/13/2022  10:50 AM    <DIR>          XML
+               0 File(s)              0 bytes
+              10 Dir(s)  355,920,642,048 bytes free
+
+C:\Users\d.saha\Documents\Visual Studio 2019>cd..
+
+C:\Users\d.saha\Documents>dir
+ Volume in drive C has no label.
+ Volume Serial Number is E478-4D1F
+
+ Directory of C:\Users\d.saha\Documents
+
+12/11/2022  12:24 PM    <DIR>          .
+03/16/2023  03:10 PM    <DIR>          ..
+09/23/2022  08:20 AM    <DIR>          Custom Office Templates
+11/09/2022  05:19 PM    <DIR>          Fiddler2
+10/13/2022  10:44 AM    <DIR>          IISExpress
+10/13/2022  10:44 AM    <DIR>          My Web Sites
+10/07/2022  09:58 AM    <DIR>          SQL Server Management Studio
+10/13/2022  02:55 PM    <DIR>          Visual Studio 2017
+10/13/2022  10:50 AM    <DIR>          Visual Studio 2019
+               0 File(s)              0 bytes
+               9 Dir(s)  355,920,515,072 bytes free
+
+C:\Users\d.saha\Documents>md code
+
+C:\Users\d.saha\Documents>cd code
+
+C:\Users\d.saha\Documents\code>dir
+ Volume in drive C has no label.
+ Volume Serial Number is E478-4D1F
+
+ Directory of C:\Users\d.saha\Documents\code
+
+03/16/2023  03:13 PM    <DIR>          .
+03/16/2023  03:13 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  355,919,855,616 bytes free
+
+C:\Users\d.saha\Documents\code>dotnet new console -o myapp
+The template "Console Application" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on myapp\myapp.csproj...
+  Determining projects to restore...
+  Restored C:\Users\d.saha\Documents\code\myapp\myapp.csproj (in 56 ms).
+Restore succeeded.
+
+
+C:\Users\d.saha\Documents\code>dir
+ Volume in drive C has no label.
+ Volume Serial Number is E478-4D1F
+
+ Directory of C:\Users\d.saha\Documents\code
+
+03/16/2023  03:13 PM    <DIR>          .
+03/16/2023  03:13 PM    <DIR>          ..
+03/16/2023  03:13 PM    <DIR>          myapp
+               0 File(s)              0 bytes
+               3 Dir(s)  355,919,765,504 bytes free
+
+C:\Users\d.saha\Documents\code>cd myapp
+
+C:\Users\d.saha\Documents\code\myapp>code code .
+
+C:\Users\d.saha\Documents\code\myapp>code code .
+
+C:\Users\d.saha\Documents\code\myapp>cd..
+
+C:\Users\d.saha\Documents\code>dir
+ Volume in drive C has no label.
+ Volume Serial Number is E478-4D1F
+
+ Directory of C:\Users\d.saha\Documents\code
+
+03/16/2023  03:13 PM    <DIR>          .
+03/16/2023  03:13 PM    <DIR>          ..
+03/16/2023  03:19 PM    <DIR>          myapp
+               0 File(s)              0 bytes
+               3 Dir(s)  354,576,289,792 bytes free
+
+C:\Users\d.saha\Documents\code>dotnet new mvc -au None -o aspnetapp
+The template "ASP.NET Core Web App (Model-View-Controller)" was created successfully.
+This template contains technologies from parties other than Microsoft, see https://aka.ms/aspnetcore/6.0-third-party-notices for details.
+
+Processing post-creation actions...
+Running 'dotnet restore' on C:\Users\d.saha\Documents\code\aspnetapp\aspnetapp.csproj...
+  Determining projects to restore...
+  Restored C:\Users\d.saha\Documents\code\aspnetapp\aspnetapp.csproj (in 54 ms).
+Restore succeeded.
+
+
+
+C:\Users\d.saha\Documents\code>cd aspnetapp
+
+C:\Users\d.saha\Documents\code\aspnetapp>code .
+
+C:\Users\d.saha\Documents\code\aspnetapp>
